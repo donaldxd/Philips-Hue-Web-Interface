@@ -1,0 +1,172 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* CSS element classes */
+
+body {
+	font-family: Lucida Grande, Verdana, Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	font-size: medium;
+	color: #000000;
+	background-color: #dcdcdc;
+}
+
+.centered {
+	text-align: center;
+}
+	
+h1 {
+	font-weight: normal;
+	font-size: 3em;
+}
+	
+.grouplefttop {
+	width: 18em;
+	float: left;
+	border: 2px solid #000000;
+	border-radius: 1.5em;
+	position:relative;
+	margin-top: 3em;
+	margin-bottom: 3em;
+}
+
+.grouprighttop {
+	width: 18em;
+	float: right;
+	border: 2px solid #000000;
+	border-radius: 1.5em;
+	position:relative;
+	margin-top: 3em;
+	margin-bottom: 3em;
+}
+
+.groupleft {
+	width: 18em;
+	float: left;
+	border: 2px solid #000000;
+	border-radius: 1.5em;
+	position:relative;
+	margin-bottom: 3em;
+}
+
+.groupright {
+	width: 18em;
+	float: right;
+	border: 2px solid #000000;
+	border-radius: 1.5em;
+	position:relative;
+	margin-bottom: 3em;
+}
+
+.groupcenter {
+	width: 18em;
+	margin: auto;
+	border: 2px solid #000000;
+	border-radius: 1.5em;
+	position:relative;
+	margin-top: 3em;
+	margin-bottom: 3em;
+}
+
+
+.grouptitle {
+	text-align: center;
+	border-bottom: 2px solid #000000;
+	margin-top: .5em;
+	padding-bottom: 0.5em;
+}
+
+.lightbutton {
+	width: 12em;
+}
+
+.lightbuttonshort {
+	width: 7em;
+}
+
+.lightbuttontall {
+	width: 7em;
+	height: 3.11em;
+}
+
+.lightbuttonline {
+	text-align: center;
+}
+
+.lightbrighttextbox {
+	width: 4em;
+	text-align: center;
+}
+
+/* CSS element IDs */
+
+#buttonbar {
+	text-align: center;
+}
+
+#content {
+	position: relative;
+	padding: 0em 3em 1em 3em;
+}
+
+#footer {
+	border-top: 2px solid #000000;
+	position: relative;
+	padding: 2em 4em 1em 4em;
+	clear:  both;
+	font-size: x-small;
+}
+
+#inner-wrapper {
+	width: 45em;
+	position: relative;
+	border-width: 0 2em;
+	margin: auto;
+}
+
+#outer-wrapper {
+	width: 50em;
+	margin: 1em auto;
+	background-position:top;
+	border: 2px solid #000000;
+	border-radius: 1.5em;
+	position:relative;
+	background-color: #ffffff;
+}
+
+#surtitle {
+	border-bottom: 2px solid #000000;
+	text-align: center;
+}
+
+#titlebar {
+	border-bottom: 2px solid #000000;
+	padding-bottom: 1em;
+	text-align: center;
+	line-height: 0.5;
+}
+
+#topnavbar ul, #topnavbar ul li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+	
+#topnavbar ul {
+	text-align: center;
+	padding-bottom: 1.5em;
+}
+
+#topnavbar ul li {
+	display: inline;
+	padding: 5px 1em;
+	margin-right: .1em;
+}
+	
+#topnavbar ul li.last {
+	margin-right: 0;
+}
+
+#topnavbar #selected {
+	background: #dcdcdc;
+}
